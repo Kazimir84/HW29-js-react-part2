@@ -1,15 +1,9 @@
-
+import "./Maine.css";
 
 function Clients() {
     return (
       <div>
-        <h2 style={{
-          textAlign: "center", 
-          color: "yellow", 
-          fontWeight: "bolder",
-          textDecoration: "underLine",
-          fontFamily: "cursive",
-          }}>
+        <h2 className="clientsH2">
             Clients
         </h2>
         <ol>

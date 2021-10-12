@@ -1,3 +1,4 @@
+import "./Maine.css"
 import React from "react";
 import { Figure } from "react-bootstrap";
 import {
@@ -13,21 +14,10 @@ import Events from "./Events";
 function Doctors() {
     return (
       <div>
-        <h2 style={{
-          textAlign:"center", 
-          color:"yellow", 
-          fontWeight: "bolder",
-          textDecoration: "underLine",
-          }}>
+        <h2 className="doctorsH2">
             Doctors Page.
           <Figure>
-            <Figure.Image style={{
-              maxWidth: 10 + "%",
-              height: "auto",
-              position: "absolute",
-              top: 385 + "px",
-              left: 430 + "px",
-            }}
+            <Figure.Image className="doctorsFigureImage"
               width={171}
               height={180}
               src="https://i.pinimg.com/564x/37/a7/42/37a7429d955720774b6529b9f5766a49.jpg"
@@ -73,8 +63,6 @@ function Doctors() {
             <li>Оториноларинголог</li>
           </ol>
         </p>
-
-
           <Switch>
              <Route path="/events">
                  <Events />

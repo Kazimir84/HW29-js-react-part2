@@ -1,0 +1,75 @@
+.maineH1Container {
+    text-align: center; 
+    color: blue;
+    font-weight: bolder;
+    text-decoration: underLine;
+    font-family: cursive;
+}
+.appointmentsH1Container {
+    text-align: center; 
+    color: chartreuse;
+    font-weight: bolder;
+    text-decoration: underLine;
+    font-family: cursive;
+}
+.appointmentsFigureImage {
+    max-width: 7% !important;
+    height: auto !important;
+    position: absolute !important;
+    top: 1px !important;
+}
+.clientsH2 {
+    text-align: center; 
+    color: yellow; 
+    font-weight: bolder;
+    text-decoration: underLine;
+    font-family: cursive; 
+}
+.doctorsH2 {
+    text-align: center; 
+    color: yellow; 
+    font-weight: bolder;
+    text-decoration: underLine;
+}
+.doctorsFigureImage {
+    max-width: 10% !important;
+    height: auto;
+    position: absolute;
+    top: 385px;
+    left: 430px;
+}
+.eventsH2 {
+    text-align: center; 
+    color: orange;
+    font-weight: bolder;
+    text-decoration: underLine;
+    font-family: cursive;
+}
+.eventsFigureImage {
+    max-width: 10% !important;
+    height: auto;
+    position: absolute;
+    top: 25px;
+}
+.usersH2 {
+    text-align: center; 
+    color: green;
+    font-weight: bolder;
+    text-decoration: underLine;
+    font-family: cursive;
+}
+.usersUl {
+    text-align: center; 
+    color: red; 
+    list-style: none;
+}
+.usersFigureImage1 {
+    max-width: 3% !important;
+    height: auto;
+    position: absolute;
+}
+.usersFigureImage2 {
+    max-width: 2% !important;
+    height: auto;
+    position: absolute;
+}

@@ -1,3 +1,4 @@
+import "./Maine.css";
 import React from "react";
 import { Switch, Route, Link, useRouteMatch, useParams } from "react-router-dom";
 import Doctors from "./Doctors";
@@ -11,24 +12,14 @@ function Users() {
   let match = useRouteMatch();
   return (
     <div>
-      <h2 style={{
-        textAlign:"center", 
-        color:"green",
-        fontWeight: "bolder",
-        textDecoration: "underLine",
-        fontFamily: "cursive",
-        }}>
+      <h2 className="usersH2">
             User Page!
       </h2>      
-      <ul style={{textAlign:"center", color:"red", listStyle:"none"}}>
+      <ul className="usersUl">
          <li>
              <Link to={`${match.url}/doctors`}>Doctors 
              <Figure>
-                <Figure.Image style={{
-                  maxWidth: 3+"%",
-                  height: "auto",
-                  position: "absolute",
-                }}
+                <Figure.Image className="usersFigureImage1"         
                   width={171}
                   height={180}
                   src="https://st.depositphotos.com/1507819/4858/v/950/depositphotos_48584735-stock-illustration-medical-syringe-on-white-background.jpg"
@@ -39,11 +30,7 @@ function Users() {
          <li>
              <Link to={`${match.url}/clients`}>Clients
               <Figure>
-                 <Figure.Image style={{
-                   maxWidth: 2+"%",
-                   height: "auto",
-                   position: "absolute",
-                 }}
+                 <Figure.Image className="usersFigureImage2"
                    width={171}
                    height={180}
                    src="https://serg-ver.com/wp-content/uploads/2015/07/0_211.jpg"
